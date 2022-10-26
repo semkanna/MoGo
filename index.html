@@ -4,95 +4,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=" 
+/npm/modern-normalize@1.1.0/modern-normalize.css">
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style/style.css">
+<link rel="stylesheet" href="./style/reset.css">
     <title>Mogo</title>
 </head>
 <body>
     <!-- header section -->
-   <header>
-<section>
-    <h2>MoGo</h2>
-    <ul>
-        <li>
-<a href="./index.html">ABOUT</a>
-        </li>
-        <li>
-            <a href="./index.html">SERVICE</a>
-        </li>
-        <li>
-            <a href="./index.html">WORK</a>
-        </li>
-        <li>
-            <a href="./index.html">BLOG</a>
-        </li>
-        <li>
-            <a href="./index.html">CONTACT</a>
-        </li>
-    </ul>
-</section>
-   </header> 
+   <header class="header-section">
+    <div class="container">
+            <h2 class="header-title">MoGo</h2>
+            <ul class="header-list">
+                <li class="header-item">
+        <a href="./index.html" class="header-link">ABOUT</a>
+                </li>
+                <li class="header-item">
+                    <a href="./index.html" class="header-link">SERVICE</a>
+                </li>
+                <li class="header-item">
+                    <a href="./index.html" class="header-link">WORK</a>
+                </li>
+                <li class="header-item">
+                    <a href="./index.html" class="header-link">BLOG</a>
+                </li>
+                <li class="header-item">
+                    <a href="./index.html" class="header-link">CONTACT</a>
+                </li>
+            </ul>
+    </div> 
+           </header>
    <!-- main section -->
-   <main>
-<section>
-<h2>We work with</h2>
-<h2>Amazing Services</h2>
-<ul>
-    <li>
-        <img src="./images/img1.jpg" alt="годинник">
-        <h2>photography</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-    </li>
-    <li>
-        <img src="./images/2" alt="графік">
-        <h2>photography</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-    </li>
-    <li>
-        <img src="./images/img3.jpg" alt="комп'ютер">
-        <h2>photography</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-    </li>
-    <li>        <img src="./images/img4.jpg" alt="лист">
-        <h2>photography</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-    </li>
-    <li>
-        <img src="./images/img5.jpg" alt="будиночок">
-        <h2>photography</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-    </li>
-    <li>
-        <img src="./images/img6.jpg" alt="звуки">
-        <h2>photography</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-    </li>
-</ul>
-</section>
-<section>
-<h2></h2>
-<h2></h2>
-<p></p>
-<ul>
-<li>
-    <img src="" alt="">
-    <h2></h2>
-    <p></p>
-</li>
-<li>
-    <img src="" alt="">
-    <h2></h2>
-    <p></p>
-</li>
-<li>
-    <img src="" alt="">
-    <h2></h2>
-    <p></p>
-</li>
-</ul>
-</section>
-   </main>
+   <main class="main-section">
+    <!-- чим ми займаємося -->
+    <div class="container">
+        <section class="services-section">
+            <h2 class="working-title">We work with</h2>
+            <h2 class="services-title">Amazing Services</h2>
+            <ul class="services-list">
+                <li class="services-item">
+                    <img src="./images/img1.jpg" alt="годинник" class="services-image">
+                    <h2 class="services-topic">photography</h2>
+                    <p class="services-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                </li>
+                <li class="services-item">
+                    <img src="./images/2" alt="графік" class="services-image">
+                    <h2 class="services-topic">photography</h2>
+                    <p class="services-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                </li>
+                <li class="services-item">
+                    <img src="./images/img3.jpg" alt="комп'ютер" class="services-image">
+                    <h2 class="services-topic">photography</h2>
+                    <p class="services-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                </li>
+                <li class="services-item">        
+                    <img src="./images/img4.jpg" alt="лист" class="services-image">
+                    <h2 class="services-topic">photography</h2>
+                    <p class="services-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                </li>
+                <li class="services-item">
+                    <img src="./images/img5.jpg" alt="будиночок" class="services-image">
+                    <h2 class="services-topic">photography</h2>
+                    <p class="services-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                </li>
+                <li class="services-item">
+                    <img src="./images/img6.jpg" alt="звуки" class="services-image">
+                    <h2 class="services-topic">photography</h2>
+                    <p class="services-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                </li>
+            </ul>
+            </section>
+            <!-- наша команда -->
+            <section class="team-section">
+            <h2 class="team-topic">Who we are</h2>
+            <h2 class="team-title">Meet our team</h2>
+            <p class="team-sentens">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            <ul class="team-list">
+            <li class="team-item">
+                <img src="./images/imgman1.jpg" alt="чоловік" class="team-image">
+                <h2 class="team-subtitle">Matthew Dix</h2>
+                <p class="team-text">Graphic Design</p>
+            </li>
+            <li class="team-item">
+                <img src="./images/imgman2.jpg" alt="чоловік з фотоапаратом" class="team-image">
+                <h2 class="team-subtitle">Christopher Campbell</h2>
+                <p class="team-text">Branding/UX design</p>
+            </li>
+            <li class="team-item">
+                <img src="./images/imgman3.jpg" alt="чоловік з бородою і в червоній рубашці" class="team-image">
+                <h2 class="team-subtitle">Michael Fertig </h2>
+                <p class="team-text">Developer</p>
+            </li>
+            </ul>
+            </section>
+               </main>
+    </div>
    <!-- footer section -->
-   <footer>
-
+   <footer class="footer-section">
+    <div class="container">
+        <p class="footer-text">© 2016 MoGo free PSD template by Laaqiq</p>
+        <input type="text" class="footer-field" placeholder="Your Email...">
+        <button class="footer-button">Subscribe</button>
+        </button>
+    </div>
    </footer>
 </body>
 </html>
